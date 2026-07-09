@@ -5,6 +5,7 @@
     "typescript": "^7.0.2"
   },
   "name": "ascii-tree-parser",
+  "type": "module",
   "version": "1.0.0",
   "description": "A lightweight language for describing directory trees that compiles into beautiful ASCII, Unicode, HTML, and Markdown tree diagrams.",
   "main": "index.js",
