@@ -1,5 +1,8 @@
 # 🌳 ASCII-Tree-Parser
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/npm/v/ascii-tree-parser)
+
 > A lightweight parser and renderer for generating beautiful ASCII directory trees from **TreeScript** — a simplified tree language.
 
 > 🚧 **Status:** Early Development (v0.1.0)

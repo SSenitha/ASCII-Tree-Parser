@@ -2,21 +2,38 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "tsx": "^4.23.0",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^2.1.8"
   },
   "name": "ascii-tree-parser",
   "type": "module",
   "version": "1.0.0",
   "description": "A lightweight language for describing directory trees that compiles into beautiful ASCII, Unicode, HTML, and Markdown tree diagrams.",
-  "main": "index.js",
-  "dependencies": {
-    "esbuild": "^0.28.1",
-    "undici-types": "^8.3.0"
+  "main": "./dist/index.js",
+  "bin": {
+    "ascii-tree-parser": "./dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint src/**/*.ts",
+    "dev": "tsx watch src/cli.ts",
+    "start": "node dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ascii",
+    "tree",
+    "directory",
+    "parser",
+    "markdown",
+    "typescript",
+    "cli"
+  ],
+  "author": "ascotDev.",
   "license": "MIT"
 }

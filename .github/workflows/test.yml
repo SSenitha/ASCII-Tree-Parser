@@ -1,0 +1,11 @@
+name: Ascii Tree Parser Test Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run placeholder
+        run: echo "This is a blank workflow template."
