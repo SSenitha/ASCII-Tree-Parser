@@ -12,7 +12,7 @@
 
 ## 🔧 v0.2.0
 
-- [ ] ⏳ Validator
+- [x] ✅ Validator
 - [ ] ⏳ CLI
 
 ---

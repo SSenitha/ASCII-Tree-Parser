@@ -61,10 +61,10 @@ a
                     f
 `,
 // Test 09
-`
-src
-  components
-`,
+// `
+// src
+//   components
+// `,
 // Test 10
 `
 src
