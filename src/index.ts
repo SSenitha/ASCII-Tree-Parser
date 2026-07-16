@@ -1,12 +1,11 @@
+import { tokenize } from "./lexer.js";
+import { parse } from "./parser.js";
+import { renderAscii } from "./renderers/ascii.js";
+
 export { tokenize } from "./lexer.js";
 export { parse } from "./parser.js";
 export { renderAscii } from "./renderers/ascii.js";
-
-import {
-    tokenize,
-    parse,
-    renderAscii
-} from "./index.js";
+export { ValidationError } from "./errors/validationErrors.js";
 
 export function generateAsciiTree(input: string): string {
     const tokens = tokenize(input);

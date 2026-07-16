@@ -91,7 +91,7 @@ See [docs/architecture.md](docs/architecture.md) for the full breakdown.
 | ⚙️ [Parser Design](docs/parser.md) | Stack-based parser implementation |
 | 🎨 [Renderer Design](docs/renderer.md) | Recursive ASCII rendering |
 | 🗺️ [Roadmap](docs/roadmap.md) | Planned features |
-| 🤝 [Contributing](docs/contributing.md) | Contribution guidelines |
+| 🤝 [Contributing](CONTRIBUTING.md) | Contribution guidelines |
 
 ---
 

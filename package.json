@@ -5,26 +5,53 @@
     "typescript": "^7.0.2",
     "vitest": "^2.1.8"
   },
+  
+  "engines": {
+    "node": ">=20"
+  },
+
   "name": "ascii-tree-parser",
   "type": "module",
   "version": "1.0.0",
   "description": "A lightweight language for describing directory trees that compiles into beautiful ASCII, Unicode, HTML, and Markdown tree diagrams.",
+  
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SSenitha/ASCII-Tree-Parser.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/SSenitha/ASCII-Tree-Parser/issues"
+  },
+
+  "homepage": "https://github.com/SSenitha/ASCII-Tree-Parser",
+
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  
   "bin": {
     "ascii-tree-parser": "./dist/cli.js"
   },
+  
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
+  
   "scripts": {
     "test": "vitest",
     "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
     "lint": "eslint src/**/*.ts",
     "dev": "tsx watch src/cli.ts",
     "start": "node dist/cli.js"
   },
+  
   "keywords": [
     "ascii",
     "tree",
@@ -34,6 +61,7 @@
     "typescript",
     "cli"
   ],
+  
   "author": "ascotDev.",
   "license": "MIT"
 }
