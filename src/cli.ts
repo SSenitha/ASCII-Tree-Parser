@@ -2,12 +2,11 @@
 
 import { generateAsciiTree } from "./index.js";
 import { readFileSync } from 'node:fs';
-import packageJson from "../package.json" with { type: "json" };
 
 const args = process.argv.slice(2);
 const inputFile = args[0];
 
-// Handle --version flag
+// Handle --help flag
 if (args.includes("--help")) {
     console.log(`
 Usage:
@@ -23,7 +22,7 @@ Options:
 
 // Handle --version flag
 if (args.includes("--version")) {
-    console.log({ version: packageJson.version });
+    console.log("version: 1.1.0");
     process.exit(0);
 }
 
