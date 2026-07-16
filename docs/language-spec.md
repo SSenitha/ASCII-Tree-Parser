@@ -29,11 +29,10 @@ src
 
 ---
 
-## 🔮 Planned Validation
+## 🔮 Validation
 
-Future versions of TreeScript will validate:
+TreeScript will validate:
 
-- ⚠️ Mixed tabs/spaces
 - ⚠️ Invalid indentation
 - ⚠️ Depth jumps
 - ⚠️ Empty node names

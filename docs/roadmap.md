@@ -6,34 +6,36 @@
 - [x] ✅ Parser
 - [x] ✅ Tree Model
 - [x] ✅ ASCII Renderer
-- [ ] 🚧 Automated Tests
+- [x] ✅ Automated Tests
 
----
+<br>
 
 ## 🔧 v0.2.0
 
 - [x] ✅ Validator
-- [ ] ⏳ CLI
+- [x] ✅ CLI
 
----
-
-## 🌐 v0.3.0
-
-- [ ] ⏳ HTML Renderer
-- [ ] ⏳ JSON Renderer
-
----
-
-## 📦 v0.4.0
-
-- [ ] ⏳ Markdown Plugin
-- [ ] ⏳ Web Component
-
----
+<br>
 
 ## 🚀 v1.0.0
 
 🎉 Stable public release.
+
+<br>
+
+## 🌐 v1.1.0
+
+- [ ] ⏳ HTML Renderer
+- [ ] ⏳ JSON Renderer
+
+<br>
+
+## 📦 v1.2.0
+
+- [ ] ⏳ Markdown Plugin
+- [ ] ⏳ Web Component
+
+<br>
 
 ---
 
