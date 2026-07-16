@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format follows Semantic Versioning.
 
 ---
+## [1.1.0] - 2026-07-16
+
+### Added
+- CLI with --help and --version
+- Validation layer
+- Public API (`generateAsciiTree`)
+- GitHub Actions CI
+- Comprehensive test suite
+- Documentation
+
+### Fixed
+- Package structure
+- Build output
+- Type declarations
+- npm packaging
+
+---
 
 ## [1.0.0] - 2026-07-16
 
@@ -22,3 +39,4 @@ The format follows Semantic Versioning.
 ### Changed
 
 - License changed to MIT
+

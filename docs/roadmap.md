@@ -25,12 +25,18 @@
 
 ## 🌐 v1.1.0
 
+- [x] ✅ Public API released
+
+<br>
+
+## 🌐 v1.2.0
+
 - [ ] ⏳ HTML Renderer
 - [ ] ⏳ JSON Renderer
 
 <br>
 
-## 📦 v1.2.0
+## 📦 v1.3.0
 
 - [ ] ⏳ Markdown Plugin
 - [ ] ⏳ Web Component

@@ -7,7 +7,7 @@
 
 > A lightweight parser and renderer for generating beautiful ASCII directory trees from **TreeScript**: a lightweight domain-specific language (DSL).
 
-> 🚀 **Status:** Stable Release (v1.0.0)
+> 🚀 **Status:** Stable Release (v1.1.0)
 
 ---
 
