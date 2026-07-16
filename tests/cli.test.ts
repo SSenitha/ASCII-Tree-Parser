@@ -12,7 +12,7 @@ describe("CLI", () => {
         .trim();
 
         expect(output)
-            .toBe("{ version: '1.1.0' }");
+            .toBe("version: 1.1.0");
 
     });
 
