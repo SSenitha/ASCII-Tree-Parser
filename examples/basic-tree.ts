@@ -1,4 +1,4 @@
-import { TreeNode } from "../src/types";
+import { TreeNode } from "../src/types.js";
 
 const tree: TreeNode = {
     name: ".",

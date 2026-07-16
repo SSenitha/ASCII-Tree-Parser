@@ -1,0 +1,6 @@
+src
+    components
+        Card.astro
+    pages
+        index.astro
+package.json

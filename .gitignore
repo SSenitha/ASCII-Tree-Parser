@@ -17,3 +17,6 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
+
+# Packed package
+ascii-tree-parser-1.0.0.tgz
